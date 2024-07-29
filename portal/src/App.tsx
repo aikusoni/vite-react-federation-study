@@ -9,6 +9,8 @@ import UserBoard from 'boardApp/UserBoard';
 
 function App() {
 
+  // TODO lazy import 테스트 필요
+
   return (
     <>
       <BrowserRouter>
