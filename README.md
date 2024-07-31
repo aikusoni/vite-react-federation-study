@@ -38,7 +38,7 @@ board   management  portal
 
 ### nginx install 예시
 
-예시로 제공된 [nginx.conf](./nginx.conf) 파일이 정상적으로 작동하려면 다음 스크립트를 사용해서 nginx를 설치해야 함.
+예시로 제공된 [nginx.conf](./nginx.conf) 파일에 auth_request 설정이 있기 때문에 정상적으로 작동하려면 다음 스크립트처럼 --with-http_auth_request_module 옵션을 넣어 nginx를 설치해야 한다.
 
 ```sh
 # nginx 설치 파일 폴더에서 다음 명령어 실행
