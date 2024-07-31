@@ -1,7 +1,7 @@
 # micro-frontend 테스트
 
 ### 개요
-React + Vite.js + vite-plugin-federation + nginx 을 사용해 micro frontend 구현 할 수 있는지 테스트 해보기 위해 작성한 코드
+React + Vite.js + vite-plugin-federation + nginx 을 사용해 micro frontend를 구현 할 수 있는지 테스트 해보기 위해 작성한 코드
 
 ### 각 폴더 설명
 - board, management : vite-plugin-federation에서 리모트로 사용되는 사이트
