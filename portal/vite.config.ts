@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => {
       }
       break;
 
+    case 'testing':
     case 'production':
       remotePaths = {
         managementApp: '/management/assets/remoteEntry.js',
@@ -36,6 +37,7 @@ export default defineConfig(({ mode }) => {
       }),
     ],
     build: {
+      outDir: '../release/portal',
       modulePreload: false,
       target: "esnext",
       minify: false,

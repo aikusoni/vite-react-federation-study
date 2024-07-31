@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --port 3001",
     "build": "tsc -b && vite build",
+    "build.testing": "tsc && vite build --mode testing",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview --port 3001"
   },

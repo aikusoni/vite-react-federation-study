@@ -17,6 +17,7 @@ export default defineConfig({
     }),
   ],
   build: {
+    outDir: '../release/management',
     modulePreload: false,
     target: "esnext",
     minify: false,
