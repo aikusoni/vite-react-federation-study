@@ -34,7 +34,7 @@ $ npm run build
 $ cd ../release
 $ ls
 board   management  portal
-```sh
+```
 
 ### nginx install 예시
 
